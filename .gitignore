@@ -1,0 +1,11 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+
+# CocoaPods
+Pods/
+
+# Swift Package
+.build/
