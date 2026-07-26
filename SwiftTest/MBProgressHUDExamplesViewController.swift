@@ -33,7 +33,7 @@ final class MBProgressHUDExamplesViewController: UIViewController {
         let stackView = UIStackView(arrangedSubviews:      [
             descriptionLabel,
             makeButton(title: "1. 网络请求加载中", color: .systemBlue, action: #selector(showLoading)),
-            makeButton(title: "2. 操作成功", color: .systemGreen, action: #selector(showSuccess)),
+            makeButton(title: "2. 操作成功 ok", color: .systemGreen, action: #selector(showSuccess)),
             makeButton(title: "3. 操作失败", color: .systemRed, action: #selector(showError)),
             makeButton(title: "4. 纯文字提示", color: .systemOrange, action: #selector(showText)),
             makeButton(title: "5. 下载进度", color: .systemPurple, action: #selector(showProgress)),
